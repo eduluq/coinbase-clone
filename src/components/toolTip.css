@@ -1,0 +1,30 @@
+.tool-tip-container {
+  position: relative;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.tool-tip {
+  box-sizing: border-box;
+  position: absolute;
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  padding: 12px 0;
+  text-align: center;
+  background: #FF9F1C;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #FFBF69;
+  border-radius: 5px;
+}
+
+.tool-tip__date {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.tool-tip__price {
+  font-size: 17px;
+  font-weight: 700;
+}

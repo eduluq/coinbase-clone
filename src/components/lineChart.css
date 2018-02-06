@@ -1,0 +1,79 @@
+.linechart {
+  position: relative;
+}
+.linechart svg {
+  padding: 5px 0;
+}
+.linechart_path {
+  stroke-width: 3;
+  fill: none;
+}
+.linechart_area {
+  stroke: none;
+  fill: #FFBF69;
+  opacity: 0.5;
+}
+.linechart_axis {
+  stroke-width: 3;
+  stroke: #FF9F1C;
+}
+.linechart_label {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(78, 92, 110);
+}
+.linechart_dates {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+#label-top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#label-top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#label-bottom-left {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+}
+#label-bottom-right {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+}
+.linechart-active-point__circle {
+  fill: #fff;
+  stroke-width: 2;
+}
+.linechart-active-point__line {
+  stroke: #FF9F1C;
+  stroke-width: 1;
+}
+
+@media only screen and (max-width: 701px) {
+  .linechart_label {
+    font-size: 16px;
+  }
+  #label-bottom-left {
+    bottom: 30px;
+  }
+  #label-bottom-right {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  #label-bottom-left {
+    bottom: 50px;
+  }
+  #label-bottom-right {
+    bottom: 50px;
+  }
+}
