@@ -39,6 +39,7 @@
   font-weight: 300;
   color: rgb(125, 149, 182);
   letter-spacing: 1px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
